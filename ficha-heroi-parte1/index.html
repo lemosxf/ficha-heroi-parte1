@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha de Herói | Cavaleiro Gale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>Cavaleiro Gale</h1>
+    <p>Guardião da Chama Pálida</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre o Herói</a></li>
+        <li><a href="#atributos">Atributos &amp; Habilidades</a></li>
+        <li><a href="#inventario">Inventário &amp; Conquistas</a></li>
+        <li><a href="#contato">Contato com a Guilda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+   
+    <section id="sobre">
+      <h2>Sobre o Herói</h2>
+      <div class="sobre">
+        <img class="avatar" src="gale.svg" alt="Retrato de Gale: cavaleiro de elmo prateado com pluma e capa azuis e olhos em brasa">
+        <div class="sobre-texto">
+          <p>Gale foi o mais jovem cavaleiro da Ordem da Lanterna. Quando o Abismo Cinzento engoliu a Ponte Velha, ele desceu sozinho para buscar os feridos e voltou sem se corromper. Desde então, caminha pelas estradas esquecidas protegendo viajantes e acendendo fogueiras onde outros só veem ruínas.</p>
+          <p>Sua armadura azul está marcada por mil batalhas, mas a mão que segura o espadão nunca se ergueu contra quem pediu abrigo.</p>
+          <dl class="ficha-dados">
+            <dt>Classe</dt><dd>Cavaleiro Guardião</dd>
+            <dt>Origem</dt><dd>Ordem da Lanterna</dd>
+            <dt>Nível</dt><dd>42</dd>
+            <dt>Lema</dt><dd>Nenhuma chama se apaga sozinha.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="atributos">
+      <h2>Atributos &amp; Habilidades</h2>
+      <ul class="lista-atributos">
+        <li class="atributo">
+          <i class="fa-solid fa-hand-fist" aria-hidden="true"></i>
+          <span class="nome">Força</span><span class="valor">85</span>
+          <div class="barra" role="progressbar" aria-label="Força" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div style="--v:85%"></div></div>
+        </li>
+        <li class="atributo">
+          <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+          <span class="nome">Defesa</span><span class="valor">90</span>
+          <div class="barra" role="progressbar" aria-label="Defesa" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div style="--v:90%"></div></div>
+        </li>
+        <li class="atributo">
+          <i class="fa-solid fa-heart" aria-hidden="true"></i>
+          <span class="nome">Vitalidade</span><span class="valor">80</span>
+          <div class="barra" role="progressbar" aria-label="Vitalidade" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div style="--v:80%"></div></div>
+        </li>
+        <li class="atributo">
+          <i class="fa-solid fa-wind" aria-hidden="true"></i>
+          <span class="nome">Velocidade</span><span class="valor">55</span>
+          <div class="barra" role="progressbar" aria-label="Velocidade" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><div style="--v:55%"></div></div>
+        </li>
+        <li class="atributo">
+          <i class="fa-solid fa-wand-sparkles" aria-hidden="true"></i>
+          <span class="nome">Magia</span><span class="valor">30</span>
+          <div class="barra" role="progressbar" aria-label="Magia" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><div style="--v:30%"></div></div>
+        </li>
+        <li class="atributo">
+          <i class="fa-solid fa-fire" aria-hidden="true"></i>
+          <span class="nome">Fé</span><span class="valor">70</span>
+          <div class="barra" role="progressbar" aria-label="Fé" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div style="--v:70%"></div></div>
+        </li>
+      </ul>
+
+      <h3>Habilidades</h3>
+      <ul class="habilidades">
+        <li><i class="fa-solid fa-khanda" aria-hidden="true"></i> <strong>Investida do Alvorecer:</strong> um golpe amplo que empurra os inimigos para longe dos aliados.</li>
+        <li><i class="fa-solid fa-shield" aria-hidden="true"></i> <strong>Muralha Azul:</strong> ergue o escudo e protege quem estiver atrás dele.</li>
+        <li><i class="fa-solid fa-fire-flame-curved" aria-hidden="true"></i> <strong>Chama Pálida:</strong> uma brasa que cura os feridos ao redor.</li>
+      </ul>
+    </section>
+
+    
+    <section id="inventario">
+      <h2>Inventário &amp; Conquistas</h2>
+      <div class="grade">
+        <article class="card-item lendario destaque">
+          <span class="raridade">Lendário</span>
+          <h3>Espadão do Alvorecer</h3>
+          <p>Forjado com o aço de uma estrela caída. Dizem que sua lâmina brilha mais forte quando há alguém inocente por perto.</p>
+        </article>
+        <article class="card-item raro">
+          <span class="raridade">Raro</span>
+          <h3>Escudo da Guarda</h3>
+          <p>Resistiu a mil golpes e ainda guarda o brasão da Lanterna.</p>
+        </article>
+        <article class="card-item raro">
+          <span class="raridade">Raro</span>
+          <h3>Elmo da Pluma Azul</h3>
+          <p>A pluma serve de farol para quem se perdeu na névoa.</p>
+        </article>
+        <article class="card-item">
+          <span class="raridade">Comum</span>
+          <h3>Frasco de Estus Pálido</h3>
+          <p>Uma dose de chama líquida que restaura as forças.</p>
+        </article>
+        <article class="card-item raro">
+          <span class="raridade">Raro</span>
+          <h3>Anel do Juramento</h3>
+          <p>Lembra Gale da promessa que fez ao deixar a Ordem.</p>
+        </article>
+        <article class="card-item raro">
+          <span class="raridade">Conquista</span>
+          <h3>Sobrevivente do Abismo</h3>
+          <p>Desceu ao Abismo Cinzento e voltou com todos os resgatados.</p>
+        </article>
+        <article class="card-item">
+          <span class="raridade">Conquista</span>
+          <h3>Guardião da Ponte Velha</h3>
+          <p>Defendeu a travessia por sete noites seguidas.</p>
+        </article>
+      </div>
+    </section>
+
+   
+    <section id="contato">
+      <h2>Contato com a Guilda</h2>
+      <p class="chamada">Precisa de um escudo na estrada? Envie um chamado ao Gale.</p>
+      <ul class="redes">
+        <li><a class="botao" href="https://discord.com" target="_blank" rel="noopener"><i class="fa-brands fa-discord" aria-hidden="true"></i> Discord da Guilda</a></li>
+        <li><a class="botao" href="https://github.com" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>
+        <li><a class="botao" href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+ 
+  <footer>
+    <p>Ficha de Herói do Cavaleiro Gale. Projeto de HTML &amp; CSS.</p>
+  </footer>
+
+</body>
+</html>
